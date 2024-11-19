@@ -264,7 +264,7 @@ async def ping(client: Client, message: Message):
 
     ms = (datetime.now() - start).microseconds / 1000
     await loda.edit_text(
-        text=f"нey вαву!!\n{(await client.get_me()).mention} ᴄʜᴀᴛʙᴏᴛ ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n\n**➥** `{ms}` ms\n**➲ ᴄᴘᴜ:** {CPU}\n**➲ ʀᴀᴍ:** {RAM}\n**➲ ᴅɪsᴋ:** {DISK}\n**➲ ᴜᴘᴛɪᴍᴇ »** {UP}\n\n<b>||**๏ мαdє ωιтн ❣️ ву [ᴠɪᴘ ʙᴏʏ](https://t.me/{OWNER_USERNAME}) **||</b>",
+        text=f"нey вαву!!\n{(await client.get_me()).mention} ᴄʜᴀᴛʙᴏᴛ ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n\n**➥** `{ms}` ms\n**➲ ᴄᴘᴜ:** {CPU}\n**➲ ʀᴀᴍ:** {RAM}\n**➲ ᴅɪsᴋ:** {DISK}\n**➲ ᴜᴘᴛɪᴍᴇ »** {UP}\n\n<b>||**๏ мαdє ωιтн ❣️ ву [sɪᴅʜɪ ✯ ᴍᴜsɪᴄ](https://t.me/{OWNER_USERNAME}) **||</b>",
         
     )
     if message.chat.type == ChatType.PRIVATE:
@@ -1837,7 +1837,7 @@ async def broadcast_message(client, message):
 
 AUTO = True
 ADD_INTERVAL = 200
-users = "chutiyapabot"  # don't change because it is connected from client to use chatbot API key
+users = "ll_MAHAKAL_MUSIC_BOT"  # don't change because it is connected from client to use chatbot API key
 async def add_bot_to_chats():
     try:
         
