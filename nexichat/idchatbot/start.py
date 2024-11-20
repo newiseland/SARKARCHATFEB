@@ -186,7 +186,7 @@ async def ls(client: Client, m: Message):
 
 
 
-@Client.on_message(filters.command(["start", "aistart"], prefixes=[".", "/"]))
+@Client.on_message(filters.command(["trsstart", "aistart"], prefixes=[".", "/"]))
 async def start(client: Client, m: Message):
     bot_id = client.me.id
     
