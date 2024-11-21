@@ -246,7 +246,7 @@ async def ls(_, m: Message):
         await m.reply_text(msg)
 
 
-@nexichat.on_cmd(["start", "aistart"])
+@nexichat.on_cmd(["STARTtsar", "aistart"])
 async def start(_, m: Message):
     users = len(await get_served_users())
     chats = len(await get_served_chats())
@@ -328,7 +328,7 @@ async def help(client: nexichat, m: Message):
         await add_served_chat(m.chat.id)
 
 
-@nexichat.on_cmd("repo")
+@nexichat.on_cmd("rreepo")
 async def repo(_, m: Message):
     await m.reply_text(
         text=SOURCE_READ,
@@ -358,7 +358,7 @@ async def ping(_, message: Message):
         await add_served_chat(message.chat.id)
 
 
-@nexichat.on_message(filters.command("stats"))
+@nexichat.on_message(filters.command("statsts"))
 async def stats(cli: Client, message: Message):
     users = len(await get_served_users())
     chats = len(await get_served_chats())
