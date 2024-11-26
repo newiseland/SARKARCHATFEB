@@ -56,9 +56,9 @@ async def tag_all_users(client, message):
             if usernum == 1:
                 await client.send_message(
                     message.chat.id,
-                    f"{text}\n{usertxt}\n\n||🔥",
+                    f"{text}\n{usertxt}🔥",
                 )
-                await asyncio.sleep(5)
+                await asyncio.sleep(10)
                 usernum = 0
                 usertxt = ""
         try:
