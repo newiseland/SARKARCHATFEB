@@ -18,8 +18,7 @@ START = """**
 ๏ ᴜᴘᴛɪᴍᴇ » {}
 
 ╔═════════════════╗
-║ ➻ ᴍʏ ʀᴇᴘᴏ ➪ [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/SIDHI_MUSIC/19)  
-║ ➻ ᴄʀᴇᴀᴛᴏʀ ➪ [sɪᴅʜɪ ✯ ᴍᴜsɪᴄ](https://t.me/ll_ITZ_NAWAB_HERE_ll)                         
+║ ➻ ᴄʀᴇᴀᴛᴏʀ ➪ [SARKAR ✯ CHATBOT](https://t.me/ll_SARKAR_OWNER_ll)                         
 ╚═════════════════╝
 **"""
 
@@ -51,7 +50,7 @@ TOOLS_DATA_READ = f"""**
 ──────────────
 ➻ ᴜsᴇ /repo ᴛᴏ ɢᴇᴛ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ ᴛʜᴇ ʙᴏᴛ!
 ──────────────
-๏ ᴍᴀᴅᴇ ʙʏ ➪ [sɪᴅʜɪ ✯ ᴍᴜsɪᴄ](https://t.me/ll_ITZ_NAWAB_HERE_ll) 💞**
+๏ ᴍᴀᴅᴇ ʙʏ ➪ [SARKAR ✯ CHATBOT](https://t.me/ll_SARKAR_OWNER_ll) 💞**
 """
 
 CHATBOT_READ = f"""**
@@ -75,10 +74,10 @@ CHATBOT_READ = f"""**
 ──────────────
 ➻ /idclone [ ᴩʏʀᴏɢʀᴀᴍ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ] - ᴛᴏ ᴍᴀᴋᴇ ɪᴅ-ᴄʜᴀᴛʙᴏᴛ.
 ──────────────
-📡 ᴍᴀᴅᴇ ʙʏ ➪ [sɪᴅʜɪ ✯ ᴍᴜsɪᴄ](https://t.me/ll_ITZ_NAWAB_HERE_ll) 💞**
+📡 ᴍᴀᴅᴇ ʙʏ ➪ [SARKAR ✯ CHATBOT](https://t.me/ll_SARKAR_OWNER_ll) 💞**
 """
 
-SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{nexichat.name}](https://t.me/{nexichat.username}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [ᴏᴡɴᴇʀ](https://t.me/ll_ITZ_NAWAB_HERE_ll)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).\n<b>||📡 ᴍᴀᴅᴇ ʙʏ ➪ [sɪᴅʜɪ ✯ ᴍᴜsɪᴄ](https://t.me/ll_ITZ_NAWAB_HERE_ll) 💞**||</b>"
+SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{nexichat.name}](https://t.me/{nexichat.username}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ ᴏᴡɴᴇʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [ᴏᴡɴᴇʀ](https://t.me/ll_SARKAR_OWNER_ll)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).\n<b>||📡 ᴍᴀᴅᴇ ʙʏ ➪ [sɪᴅʜɪ ✯ ᴍᴜsɪᴄ](https://t.me/ll_SARKAR_OWNER_ll) 💞**||</b>"
 
 ADMIN_READ = f"sᴏᴏɴ"
 
