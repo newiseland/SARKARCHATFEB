@@ -246,7 +246,7 @@ async def ls(_, m: Message):
         await m.reply_text(msg)
 
 
-@nexichat.on_cmd(["stttt", "rt"])
+@nexichat.on_cmd(["start", "starts"])
 async def start(_, m: Message):
     users = len(await get_served_users())
     chats = len(await get_served_chats())
