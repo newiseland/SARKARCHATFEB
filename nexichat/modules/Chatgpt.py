@@ -11,7 +11,7 @@ openai.api_key = "sk-proj-24KPDh7zxXCQfNxYZ9_nqW5de8Wf3g05a4nmzEVDJS95WYil62sC7T
 api_key ="bcbddea0-f2bd-4b4e-af1d-225b30893fcd" #deepai
 
 
-@app.on_message(filters.command(["chatgpt","ai","ask"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
+@Client.on_message(filters.command(["chatgpt","ai","ask"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
 async def chat(app :app, message):
     
     try:
@@ -32,7 +32,7 @@ async def chat(app :app, message):
 
 
 
-@app.on_message(filters.command(["aan" , ],  prefixes=["j","J"]))
+@Client.on_message(filters.command(["aan" , ],  prefixes=["j","J"]))
 async def chat(app :app, message):
     
     try:
@@ -54,7 +54,7 @@ async def chat(app :app, message):
 
 # voice chatgpt ai
 
-@app.on_message(filters.command(["assis"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
+@Client.on_message(filters.command(["assis"],  prefixes=["+", ".", "/", "-", "?", "$","#","&"]))
 async def chat(app :app, message):
     
     try:
@@ -81,7 +81,7 @@ async def chat(app :app, message):
         
 
 
-@app.on_message(filters.command(["deep" , ],  prefixes=["+", ".", "/", "-", "?", "$", "#", "&"]))
+@Client.on_message(filters.command(["deep" , ],  prefixes=["+", ".", "/", "-", "?", "$", "#", "&"]))
 async def deepchat(app: app, message):
     name = message.from_user.first_name
     try:
@@ -109,7 +109,7 @@ async def deepchat(app: app, message):
 
 #####
 
-@app.on_message(filters.command(["aby" , ],  prefixes=["b","B"]))
+@Client.on_message(filters.command(["aby" , ],  prefixes=["b","B"]))
 async def deepchat(app: app, message):
     name = message.from_user.first_name
     try:
