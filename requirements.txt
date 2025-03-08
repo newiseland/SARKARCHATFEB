@@ -18,6 +18,3 @@ langdetect
 MukeshAPI
 speedtest-cli
 openai
-pymongo[srv]
-python-dotenv
-openai
