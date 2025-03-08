@@ -6,7 +6,7 @@ from pyrogram.enums import ChatAction
 from nexichat import nexichat as app
 
 # Set your OpenAI API key here
-OPENAI_API_KEY = "proj_WL0TMed87wrGBYQv2pCs6cCW"
+OPENAI_API_KEY = "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"
 
 @Client.on_message(filters.command(["gemini", "ai", "ask", "chatgpt"]))
 async def gemini_handler(client, message):
