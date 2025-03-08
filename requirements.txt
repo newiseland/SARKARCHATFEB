@@ -18,7 +18,6 @@ langdetect
 MukeshAPI
 speedtest-cli
 openai
-aiogram==2.25.1
 pymongo[srv]
 python-dotenv
 openai
