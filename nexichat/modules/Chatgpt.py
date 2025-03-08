@@ -1,9 +1,12 @@
 import requests
+import openai  # Install via: pip install openai
 from MukeshAPI import api
 from pyrogram import filters, Client
 from pyrogram.enums import ChatAction
 from nexichat import nexichat as app
 
+# Set your OpenAI API key here
+OPENAI_API_KEY = "proj_WL0TMed87wrGBYQv2pCs6cCW"
 
 @Client.on_message(filters.command(["gemini", "ai", "ask", "chatgpt"]))
 async def gemini_handler(client, message):
@@ -28,15 +31,30 @@ async def gemini_handler(client, message):
         if result:
             await message.reply_text(result, quote=True)
             return
-    except:
-        pass  
-        
+    except Exception as e:
+        print(f"Gemini API Error: {e}")
+
+    try:
+        openai.api_key = OPENAI_API_KEY
+        chat_response = openai.ChatCompletion.create(
+            model="gpt-4",  # Use "gpt-3.5-turbo" if you have a limited budget
+            messages=[{"role": "user", "content": user_input}],
+        )
+
+        if chat_response and "choices" in chat_response:
+            ai_reply = chat_response["choices"][0]["message"]["content"]
+            await message.reply_text(ai_reply, quote=True)
+            return
+    except Exception as e:
+        print(f"ChatGPT API Error: {e}")
+
     try:
         base_url = "https://chatwithai.codesearch.workers.dev/?chat="
         response = requests.get(base_url + user_input)
         if response and response.text.strip():
             await message.reply_text(response.text.strip(), quote=True)
         else:
-            await message.reply_text("**Both Gemini and Chat with AI are currently unavailable**")
-    except:
-        await message.reply_text("**Chatgpt is currently dead. Try again later.**")
+            await message.reply_text("**All AI services are currently unavailable**")
+    except Exception as e:
+        print(f"Chat with AI Error: {e}")
+        await message.reply_text("**ChatGPT is currently unavailable. Try again later.**")
